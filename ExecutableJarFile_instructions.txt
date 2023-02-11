@@ -1,0 +1,26 @@
+D:\MYWORK\hello>dir
+ Volume in drive D is USER_SSD
+ Volume Serial Number is FE47-3073
+
+ Directory of D:\MYWORK\hello
+
+02/06/2023  12:06 PM    <DIR>          .
+02/06/2023  12:06 PM    <DIR>          ..
+02/06/2023  11:22 AM               136 HelloWorld.java
+               1 File(s)            136 bytes
+               2 Dir(s)  120,945,459,200 bytes free
+
+D:\MYWORK\hello>javac -d  .  HelloWorld.java
+
+D:\MYWORK\hello>java com.pekia.hello.HelloWorld
+Hello
+
+D:\MYWORK\hello>jar cvfe hello-world.jar com.pekia.hello.HelloWorld com
+added manifest
+adding: com/(in = 0) (out= 0)(stored 0%)
+adding: com/pekia/(in = 0) (out= 0)(stored 0%)
+adding: com/pekia/hello/(in = 0) (out= 0)(stored 0%)
+adding: com/pekia/hello/HelloWorld.class(in = 435) (out= 297)(deflated 31%)
+
+D:\MYWORK\hello>java -jar hello-world.jar
+Hello

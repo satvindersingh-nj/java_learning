@@ -1,0 +1,19 @@
+Project named lunch
+
+package named lunch
+
+class named Lunch
+   price      double
+   entree     String
+   dessert    String
+   side       String
+
+class LunchMain
+main
+   create an array 
+   put five lunch objects in it 
+   print them out
+
+export as executable jar
+
+run it in a terminal
